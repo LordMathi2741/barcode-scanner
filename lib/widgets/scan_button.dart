@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:qrscanner2/main.dart';
 import 'package:qrscanner2/providers/scan_list_provider.dart';
 import 'package:qrscanner2/utils/utils.dart';
 import 'package:simple_barcode_scanner/simple_barcode_scanner.dart';
-//import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 class ScanButton extends StatelessWidget {
   const ScanButton({super.key});
 

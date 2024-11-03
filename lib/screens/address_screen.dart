@@ -28,11 +28,9 @@ class AddressScreen extends StatelessWidget {
                 },
               child: ListTile(
                 leading: const Icon(Icons.home_filled, color: Colors.indigo),
-                title: Expanded(
-                    child: Text(
+                title: Text(
                         scanListProvider.scans[index].value,
-                    )
-                ),
+                    ),
                 subtitle: Text("ID: ${scanListProvider.scans[index].id.toString()}"),
                 trailing: const Icon(Icons.arrow_forward),
                 onTap: () => launchToUrl(context,scanListProvider.scans[index])
